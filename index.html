@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/avatar-1.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Priyanshu Das</h1>
+
+          <p class="title">Full stack developer</p>
+          <p class="title">Co-Founder LabelUp.co.in</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">priyanshudas01@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9199687599</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">February 01, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Agartala, Tripura, Inida</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/priyanshu-das-344096271/" class="social-link">
+        <img class="socials" src="assets/images/317750_linkedin_icon.png">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/PriyanshuDas01" class="social-link">
+              <img class="socials" src="assets/images/211904_social_github_icon.png">
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+      
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+         I am a Production engineering B.tech undergrad at National Institute of Technology Agartala, India. I have made multiple websites and UI designs
+         and I follow the domain of web development as a passionate learner.
+          
+      
+          
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/writting.png" alt="pen icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content writting</h4>
+
+                <p class="service-item-text">
+                  Professional content writting for bussiness and blogs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/graphics.png" alt="Graphic icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic designing</h4>
+
+                <p class="service-item-text">
+                  I make crative and expressive graphic designs.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          
+              </figure>
+
+         
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="Projects">
+
+          <h3 class="h3 clients-title">Projects</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+       
+
+            <li class="clients-item">
+              <a href="labelup.co.in">
+                <img src="./assets/images/LabelUp.png" alt="client logo">
+              </a>
+
+              <li class="clients-item">
+                <a href="https://mun-ai.vercel.app/">
+                  <img src="./assets/images/decipher.png" alt="client logo">
+                </a>
+              </li>
+
+           
+            <li class="clients-item">
+              <a href="https://munsoc-roan.vercel.app">
+                <img src="./assets/images/NITA MUN.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://github.com/anshuman-rai-27/validate">
+                <img src="./assets/images/Validate.png" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://jamshack.in/">
+                <img src="./assets/images/jamshack.png" alt="client logo">
+              </a>
+            </li>
+
+           
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Co-Founder and COO at LabelUp.co.in</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+               Co-founded LabelUp.co.in with the vision of helping budding brands in India and to open new doors for 
+               people enteing into Indian e-commerce.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Undersecretary and Tech Lead at MUNSOC Club NITA</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+              I have been a part of MUNSOC NITA both as an executive member and tech lead. I have worked as a website developer in 
+              MUNSOC, creating the website for the online MUN 2023.
+      
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Executive & Web designer at Jamshack23</h4>
+
+              <span>2022-2023</span>
+
+              <p class="timeline-text">
+                Worked as a executive, PR lead and Web designer at Jamshack23. Our whole team at NIT Agartala 
+                had contibuted with their diverse skill sets to make Jamshack23 the
+                largest online hackathon of North-East India.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Institute of Technology Agartala, Agartala, Tripura, India</h4>
+
+              <span>2022 — Present
+        
+              </span>
+
+              <p class="timeline-text">
+                Second year B.tech Production Engineering undergrad. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Holy Mission Senior Secondary School, Muzaffarpur, Bihar, India</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+             Completed my senior secondary education in 2022 with 93.8% from Central Board of Secondary Education (C.B.S.E.)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sunshine Prep./High School, Muzaffarpur, Bihar, India</h4>
+
+              <span>2006 — 2019</span>
+
+              <p class="timeline-text">
+                Completed my secondary education in 2019 with 95.4% from Central Board of Secondary Education (C.B.S.E.)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+       
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+           
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+          
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/html.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HTML 5</h3>
+
+                <p class="project-category">Front End</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/css.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CSS 3</h3>
+
+                <p class="project-category">Front End</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/js.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Java <Script></Script></h3>
+
+                <p class="project-category">Front End</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/react.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Reactjs</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tailwind-css-icon.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tailwind</h3>
+
+                <p class="project-category">Front End</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/node.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nodejs</h3>
+
+                <p class="project-category">Web deevelopment</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bootstrap-5-logo-icon.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sass.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Saas</h3>
+
+                <p class="project-category">Front End</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/8546827_aws_icon.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AWS</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/python.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python</h3>
+
+                <p class="project-category">Language</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mysql.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MySQL</h3>
+
+                <p class="project-category">Database</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/canva.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Canva</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!-- Projects----------------------------------- -->
+
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+           
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+          
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ui.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LabelUp</h3>
+
+                <p class="project-category">Overview</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NITAMUN-ui1.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NITA MUN website</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NITAMUN-ui2.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NITA MUN<Script></Script></h3>
+
+                <p class="project-category">Committee page</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decipher-ui2.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decipher</h3>
+
+                <p class="project-category">Lamding page</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decipher-ui-about.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decipher</h3>
+
+                <p class="project-category">About Us</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/decipher-ui.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decipher</h3>
+
+                <p class="project-category">Decipher AI Chatbot</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Validate-ui.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Validate</h3>
+
+                <p class="project-category">Landing page</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/jamshack-ui1.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jamshack23 website</h3>
+
+                <p class="project-category">Landing page</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/jamshack-ui2.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jamshack23</h3>
+
+                <p class="project-category">Problem statements theme</p>
+
+              </a>
+            </li>
+
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
